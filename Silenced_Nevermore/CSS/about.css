@@ -1,0 +1,15 @@
+main{
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+main p{
+	width: 98%;
+	height: auto;
+	font-size: 14pt;
+	margin-bottom: 0px;
+}
+
+main p span{
+	font-weight: bold;
+}

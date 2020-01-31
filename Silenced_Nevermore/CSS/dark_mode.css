@@ -1,0 +1,30 @@
+body .container{
+	color: #FFFAF0;
+}
+
+header h1 a{
+	position: relative;
+	color: #FFFAF0;
+}
+
+.vertical-options {
+	position: relative;
+}
+
+.vertical-options .volume-bar .slider {
+	position: relative;
+	background: #FFFAF0; /* Black background */
+}
+
+nav a{
+	position: relative;
+	color: #FFFAF0;
+}
+
+nav .current {
+	border-bottom: 3px solid #FFFAF0;
+}
+
+.hvr-underline-from-center:before{
+	background: #FFFAF0;
+}

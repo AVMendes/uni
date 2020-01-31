@@ -1,0 +1,233 @@
+@font-face{
+	font-family: "Blacker-s";
+	src: url("https://avmendes.github.io/uni/Silenced_Nevermore/assets/fonts/BlackerText-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Blacker-m";
+	src: url("https://avmendes.github.io/uni/Silenced_Nevermore/assets/fonts/BlackerText-Medium.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Blacker-l";
+	src: url("https://avmendes.github.io/uni/Silenced_Nevermore/assets/fonts/BlackerText-Bold.ttf") format("truetype");
+}
+
+
+@font-face{
+	font-family: "Blauth-s";
+	src: url("https://avmendes.github.io/uni/Silenced_Nevermore/assets/fonts/Blauth-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Blauth-m";
+	src: url("https://avmendes.github.io/uni/Silenced_Nevermore/assets/fonts/Blauth-Medium.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Blauth-l";
+	src: url("https://avmendes.github.io/uni/Silenced_Nevermore/assets/fonts/Blauth-Bold.ttf") format("truetype");
+}
+
+h1{
+	font-family: 'Blauth-l', Arial, sans-serif;
+	font-size: 20pt;
+}
+
+html { 
+	height: 100%; 
+}
+
+body{
+	width: 100vw;
+	margin: 0px;
+	overflow: hidden;
+
+	font-family: "Blacker-s", serif;
+	font-size: 16pt;
+	color: #404040;
+}
+
+@media only screen and (min-width: 100px) {
+
+	.small-screen{
+		position: relative;
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		align-items: center;
+		text-align: center;
+	}
+
+	.small-screen h1{
+		width: 80vw;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		margin: 0;
+		transform: translate(-50%, -50%);
+		font-size: 4vh;
+		font-family: 'Blauth-m', Arial, sans-serif;
+
+	}
+
+	.start, .container{
+		display: none;
+	}
+
+}
+
+@media only screen and (orientation:portrait) and (min-width: 1021px) {
+
+	.small-screen{
+		position: relative;
+		display: block;
+		width: 100vw;
+		height: 100vh;
+		align-items: center;
+		text-align: center;
+	}
+
+	.small-screen h1{
+		width: 80vw;
+		top: 50%;
+		left: 50%;
+		position: absolute;
+		margin: 0;
+		transform: translate(-50%, -50%);
+		font-size: 4vh;
+		font-family: 'Blauth-m', Arial, sans-serif;
+
+	}
+
+	.start, .container{
+		display: none;
+	}
+
+}
+
+@media only screen and (orientation:landscape) and (min-width: 1021px) and (min-height: 590px) {
+
+	body{
+		background-image: url("https://avmendes.github.io/uni/Silenced_Nevermore/assets/images/bg.png");
+		background-repeat: no-repeat;
+	}
+
+	.small-screen{
+		display: none;
+	}
+
+	.start, .container{
+		display: block;
+		opacity: 1;
+	}
+
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	padding: 50px 10% 40px 10%;
+	box-sizing: border-box;
+}
+
+header{
+	display: inline-flex;
+	width: 70%;
+	height: 10%;
+}
+
+header h1{
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+header h1 a{
+	text-decoration: none;
+	color: #404040;
+}
+
+.vertical-options{
+	display: inline-flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	width: 29%;
+	height: 10%;
+}
+
+.vertical-options .volume-bar {
+	width: auto; /* Width of the outside container */
+	margin-right: 25px;
+}
+
+/* The slider itself */
+.vertical-options .volume-bar .slider {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	height: 7px; /* Slider height */
+	background: #404040; /* Black background */
+	outline: none; /* Remove outline */
+	border-radius: 5px;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.vertical-options .volume-bar .slider::-webkit-slider-thumb {
+	-webkit-appearance: none; /* Override default look */
+	appearance: none;
+	width: 7px; /* Set a specific slider handle width */
+	height: 20px; /* Slider handle height */
+	border-radius: 3px;
+	background: #CACACA; /* Grey background */
+	cursor: pointer; /* Cursor on hover */
+}
+
+.vertical-options .volume-bar .slider::-moz-range-thumb {
+	width: 7px; /* Set a specific slider handle width */
+	height: 20px; /* Slider handle height */
+	background: #CACACA; /* Grey background */
+	border-radius: 3px;
+	cursor: pointer; /* Cursor on hover */
+}
+
+.vertical-options .sound{
+	align-items: center;
+	width: 28px;
+	height: auto;
+	cursor: pointer;
+}
+
+.vertical-options div img{
+	width: 100%;
+	margin-top: 4px;
+}
+
+main{
+	display: flex;
+	width: 100%;
+	height: 80%;
+}
+
+nav{ 
+	width: 80%;
+	height: 10%; 
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	bottom: 20px;
+}
+
+nav a{
+	height: 50%;
+	margin-left: 5%;
+
+	font-family: 'Blauth-m', Arial, sans-serif;
+	font-size: 14pt;
+	text-decoration: none;
+	color: #404040;
+}
+
+nav .current{
+	height: 46%;
+	border-bottom: 3px solid #404040;
+}

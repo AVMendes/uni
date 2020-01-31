@@ -1,0 +1,37 @@
+.container #c_anim{
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+	margin-top: -19vh;
+	top: 0;
+	left: 0;
+}
+
+.container #c_anim svg{
+	min-width: 100%;
+	min-height: 100%;	
+}
+
+#bg_video {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+header {
+	position: relative;
+}
+
+.vertical-options {
+	position: relative;
+}
+
+.vertical-options .volume-bar .slider {
+	position: relative;
+}
+
+nav a{
+	position: relative;
+}

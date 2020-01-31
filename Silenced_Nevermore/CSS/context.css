@@ -1,0 +1,75 @@
+.container #c_anim{
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+	margin-top: -10vh;
+	top: 0;
+	left: 0;
+}
+
+.container #c_anim svg{
+	min-width: 100%;
+	min-height: 100%;	
+}
+
+#bg_video {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+main{
+	justify-content: center;
+}
+
+.context_content{
+	justify-content: left;
+}
+
+.context_content p{
+	position: relative;
+	width: 25%;
+	line-height: 16pt;
+	font-size: 14pt;
+}
+
+.context_content.africa p{
+	margin-right: 40px;
+}
+
+main ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 50px;
+}
+
+main ul .region{
+	display: flex;
+	align-items: center;
+
+	height: 30px;
+	width: 100%;
+	margin-bottom: 20px;
+
+	cursor: pointer;
+}
+
+main ul .region img{
+	visibility: hidden;
+	width: 30px;
+	height: auto;
+	margin-right: 10px;
+}
+
+main ul .region:hover > img{
+	visibility: visible;
+}
+
+main ul .region a{
+	font-size: 14pt;
+	text-decoration: none;
+	color: #404040;
+}

@@ -1,0 +1,2 @@
+$("#sound_icon").attr("src","https://avmendes.github.io/uni/Silenced_Nevermore/assets/icons/volume_w.svg");
+$("#fs_icon").attr("src","https://avmendes.github.io/uni/Silenced_Nevermore/assets/icons/fullscreen_w.svg");

@@ -1,0 +1,61 @@
+main{
+	flex-wrap: wrap;
+}
+
+#wing-appear, #wing-move {
+	position: fixed;
+	right: -10px;
+	top: 0;
+	min-width: 80%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+#wing-move{
+	display: none;
+}
+
+main h2{
+	width: 100%;
+	font-family: "Blacker-s", serif;
+	font-size: 14pt;
+	font-weight: normal;
+	line-height: 16pt;
+}
+
+main h2 .bold{
+	font-weight: bold;
+}
+
+main ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 20px;
+}
+
+main ul .action{
+	display: flex;
+	align-items: center;
+
+	height: 30px;
+	width: 100%;
+	margin-bottom: 40px;
+	cursor: default;
+}
+
+main ul .action li{
+	font-family: "Blacker-m", serif;
+	font-size: 14pt;
+}
+
+main ul .action img{
+	width: 15px;
+	height: auto;
+	margin-right: 10px;
+}
+
+main ul .action a{
+	text-decoration: none;
+	color: #404040;
+}
