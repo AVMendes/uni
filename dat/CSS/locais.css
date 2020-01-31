@@ -18,7 +18,7 @@ main .mobile{
 }
 
 .background .one {
-	background: url(https://avmendes.github.io/uni/DAT/data/darq.jpg)no-repeat center;
+	background: url(https://avmendes.github.io/uni/dat/data/darq.jpg)no-repeat center;
 	background-size: cover;
 	animation: fadeImage 15s infinite;
 	-webkit-animation: fadeImage 15s infinite;
@@ -26,14 +26,14 @@ main .mobile{
 } 
 
 .background .two {
-	background: url(https://avmendes.github.io/uni/DAT/data/dei.jpg)no-repeat center;
+	background: url(https://avmendes.github.io/uni/dat/data/dei.jpg)no-repeat center;
 	background-size: cover;
 	animation: fadeImage2 15s infinite;
 	-webkit-animation: fadeImage2 15s infinite;
 }
 
 .background .three {
-	background: url(https://avmendes.github.io/uni/DAT/data/museu_ciencia.jpg)no-repeat center;
+	background: url(https://avmendes.github.io/uni/dat/data/museu_ciencia.jpg)no-repeat center;
 	background-size: cover;
 	animation: fadeImage3 15s infinite;
 	-webkit-animation: fadeImage3 15s infinite;
